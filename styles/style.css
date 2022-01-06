@@ -208,6 +208,10 @@ p {
   font-size: 18px;
   line-height: 1.2;
 }
+.table__info {
+  display: inline-block;
+  margin-top: 20px;
+}
 .feynman {
   position: relative;
 
