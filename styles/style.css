@@ -86,21 +86,20 @@ p {
   width: 183px;
   height: 32px;
 }
-.title {
+.header__title {
   position: relative;
   z-index: 90;
 
-  display: flex;
-  vertical-align: middle;
   width: 730px;
   margin-left: 64px;
 }
-.title__text {
+.header__title-text {
+  margin: 0;
   font-size: 102px;
   line-height: 96px;
   font-weight: bold;
 }
-.subtitle {
+.header__subtitle {
   position: absolute;
   left: 64px;
   bottom: 30px;
@@ -108,12 +107,12 @@ p {
 
   width: 388px;
 }
-.subtitle__text {
+.header__subtitle-text {
   font-size: 18px;
   line-height: 25px;
   margin-bottom: 0;
 }
-.subtitle__link {
+.header__subtitle-link {
   text-decoration: none;
 }
 .subtitle__link:hover {
