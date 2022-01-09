@@ -28,10 +28,6 @@
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
 .description {
   padding-top: 100px;
   padding-bottom: 50px;
@@ -41,20 +37,21 @@
   padding-bottom: 40px;
 }
 .logo {
+  width: 183px;
+  height: 32px;
+}
+.logo_place_header {
   position: absolute;
   z-index: 999;
   top: 30px;
   left: 64px;
-
-  width: 183px;
-  height: 32px;
 }
-
 .header__title {
   position: relative;
   z-index: 90;
 
   width: 730px;
+  margin: 0;
   margin-left: 64px;
   font-size: 102px;
   line-height: 96px;
@@ -69,14 +66,11 @@
   width: 388px;
   font-size: 18px;
   line-height: 25px;
-  margin-bottom: 0;
+  margin: 0;
 }
 .header__link{
   color: #2f80ed;
   text-decoration: none;
-}
-.header__link:hover {
-  text-decoration: underline;
 }
 .header__main-illustration {
   position: absolute;
@@ -87,7 +81,7 @@
   width: 765px;
   height: 608px;
 }
-.square-pic {
+.header__square-pic {
   position: absolute;
   top: 64px;
   right: 0;
@@ -123,12 +117,11 @@
   font-size: 24px;
   line-height: 34px;
   font-weight: normal;
+  margin: 0;
+  margin-bottom: 30px;
 }
 .two-columns__paragraph:last-child {
   margin-bottom: 0;
-}
-.two-columns__paragraph:first-child {
-  margin-top: 0;
 }
 .section-title {
   display: block;
@@ -159,6 +152,9 @@
 .table__cell {
   width: 250px;
   margin-bottom: 60px;
+}
+.table__cell_theme_dark {
+  margin-bottom: 80px;
 }
 .table__heading {
   margin: 0;
@@ -206,6 +202,7 @@
   font-weight: bold;
 }
 .feynman__subtitle {
+  margin: 0;
   font-size: 36px;
   line-height: 51px;
   text-align: center;
@@ -228,8 +225,6 @@
   padding-top: 90px;
   padding-bottom: 10px;
   overflow: hidden;
-}
-.kaufman_theme_dark {
   background-color: #1f1f1f;
 }
 .table__heading_theme_dark {
@@ -305,9 +300,6 @@
   font-weight: normal;
   color: #fff;
   text-decoration: none;
-}
-.footer__column-link:hover {
-  text-decoration: underline;
 }
 .footer__social-icon {
   vertical-align: middle;
