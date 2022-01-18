@@ -4,7 +4,11 @@
 
   min-height: 890px;
   padding-top: 100px;
+<<<<<<< HEAD
   background-image: url("../../images/feynman.png");
+=======
+  background-image: url("../images/feynman.png");
+>>>>>>> 9f892ec148120b75dfa9ee9fdce2acfc9200009d
   background-repeat: no-repeat;
   background-size: auto;
   background-position: left bottom;
