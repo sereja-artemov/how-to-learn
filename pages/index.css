@@ -1,5 +1,6 @@
 @import url(../blocks/content/content.css);
 @import url(../blocks/description/description.css);
+@import url(../blocks/techniques/tehniques.css);
 @import url(../blocks/digits/digits.css);
 @import url(../blocks/feynman/feynman.css);
 @import url(../blocks/feynman/__link/feynman__link.css);
@@ -47,7 +48,7 @@
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 @import url(../blocks/footer/footer.css);
-
+@import url(../blocks/rotation/rotation.css);
 
 
 
