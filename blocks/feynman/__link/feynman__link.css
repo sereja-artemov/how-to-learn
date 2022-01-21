@@ -2,7 +2,7 @@
   position: absolute;
   top: 50%;
   right: 48px;
-  /* transform: translateY(-50%); */
+  transform: translateY(-50%);
 
   font-size: 36px;
   line-height: 51px;
